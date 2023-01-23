@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    background: url(img/фон.jpeg) no-repeat center / cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.compliment {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 30px;
+    background-image: url(img/фон3.jpg);
+    padding: 20px;
+
+}
+
+.compliment__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.compliment__title {
+    margin-top: 0px;
+}
+
+.compliment__title-name {}
+
+.myForm {}
+
+input[type="text"] {
+    outline: none;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}
+
+#userName {
+    outline: none;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+    display: block;
+}
+
+#userName::placeholder {
+    font-weight: 400;
+}
+
+.form__row {
+    padding: 10px;
+}
